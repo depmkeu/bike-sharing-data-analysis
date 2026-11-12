@@ -40,7 +40,7 @@ Beberapa hasil utama dari analisis ini adalah:
 
 Proyek ini menggunakan beberapa tools dan library berikut:
 
-- Python
+- Python 3.13.7
 - Pandas
 - NumPy
 - Matplotlib
@@ -62,6 +62,20 @@ submission/
 ├── requirements.txt
 ├── README.md
 └── url.txt
+```
+
+## Setup Environment - Anaconda
+
+```bash
+conda create --name bike-sharing python=3.13
+conda activate bike-sharing
+pip install -r requirements.txt
+```
+
+## Setup Environment - Shell/Terminal
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Cara Menjalankan Dashboard
@@ -87,7 +101,7 @@ streamlit run dashboard/dashboard.py
 
 Dashboard dibuat menggunakan Streamlit untuk menampilkan ringkasan data, visualisasi pola penyewaan, serta hasil analisis berdasarkan pertanyaan bisnis.
 
-Jika dashboard telah berhasil di-deploy, tautan akses dapat dilihat pada file `url.txt`.
+Link Dashboard: https://bike-sharing-analysis-devi.streamlit.app
 
 ## Dataset
 
